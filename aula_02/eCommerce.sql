@@ -34,10 +34,10 @@ insert into tb_produtos(nome, valor, quantidade, tipo, data_vencimento, marca) v
 select * from tb_produtos;
 select * from tb_produtos where marca = "Kingston";
 
--- selecionando todos os colaboradores possuem o salário maior que 2000
+-- selecionando todos os produtos que possuem o valor maior que 500
 select * from tb_produtos where valor > 500;
 
--- selecionando todos os colaboradores possuem o salário menor que 2000
+-- selecionando todos os produtos que possuem o valor menor que 500
 select * from tb_produtos where valor < 500;
 
 -- atualizando um registro atraves de uma query de atualização
